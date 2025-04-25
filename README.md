@@ -90,12 +90,4 @@
 
   <section id="contact">
     <h2>Contact & Follow</h2>
-    <p>Email: leonardmarvelous0@gmail.com</p>
-    <p>Instagram: <a href="https://instagram.com/mystictangles" target="_blank">@mystictangles</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Mystic Tangles. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+    <p>Email: leonardmarvelous0@gm
