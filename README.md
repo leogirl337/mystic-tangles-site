@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -14,13 +14,14 @@
     }
     header {
       background: #f7c8d0;
-      padding: 20px;
+      padding: 30px;
       text-align: center;
     }
     h1 {
-      margin: 0;
-      font-size: 2.5em;
-      color: #6a1b4d;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 3.2em;
+      color: #8e4585;
+      margin-bottom: 0;
     }
     nav {
       background: #ffe6ea;
@@ -49,18 +50,35 @@
       padding: 10px;
       font-size: 0.9em;
     }
+    .banner {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    blockquote {
+      font-style: italic;
+      color: #6a1b4d;
+      border-left: 4px solid #f7c8d0;
+      padding-left: 20px;
+      margin: 20px 0;
+      background: #fff0f5;
+    }
   </style>
 </head>
 <body>
   <header>
+    <img src="https://dummyimage.com/120x120/f7c8d0/6a1b4d&text=Logo" alt="Mystic Tangles Logo" style="height: 120px;">
     <h1>Mystic Tangles</h1>
-    <p>A Social Wellness Café for Emotional Relief and Connection</p>
+    <p style="font-size: 1.2em; color: #5c3b57;">A Social Wellness Café</p>
   </header>
+
+  <img src="https://dummyimage.com/1200x400/ffe6ea/6a1b4d&text=Welcome+to+Mystic+Tangles" alt="Mystic Tangles Banner" class="banner">
 
   <nav>
     <a href="#about">About</a>
     <a href="#vision">Vision</a>
     <a href="#services">Services</a>
+    <a href="#quotes">Quotes</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -88,6 +106,27 @@
     </ul>
   </section>
 
+  <section id="quotes">
+    <h2>Inspiring Words</h2>
+    <blockquote>
+      "I find beauty in quiet resilience—people who still love, laugh, and create while carrying pain. That silent strength inspires Mystic Tangles."
+    </blockquote>
+    <blockquote>
+      "Sometimes, just being seen, heard, or smiled at is enough to heal. Mystic Tangles is built for those moments."
+    </blockquote>
+    <blockquote>
+      "Healing doesn’t have to be loud. It can be a game, a warm drink, or a laugh shared in a cozy corner."
+    </blockquote>
+  </section>
+
   <section id="contact">
     <h2>Contact & Follow</h2>
-    <p>Email: leonardmarvelous0@gm
+    <p>Email: leonardmarvelous0@gmail.com</p>
+    <p>WhatsApp Channel: <a href="https://whatsapp.com/channel/0029VaDw3ZJDOQITnUZmW10M" target="_blank">Join Here</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mystic Tangles. All rights reserved.</p>
+  </footer>
+</body>
+</html>
