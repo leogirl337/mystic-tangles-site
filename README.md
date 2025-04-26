@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -19,9 +19,21 @@
     }
     h1 {
       font-family: 'Brush Script MT', cursive;
-      font-size: 3.2em;
+      font-size: 3em;
       color: #8e4585;
-      margin-bottom: 0;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 1.2em;
+      color: #5c3b57;
+    }
+    .banner {
+      background: #ffe6ea;
+      padding: 40px 20px;
+      text-align: center;
+      font-style: italic;
+      font-size: 1.4em;
+      color: #6a1b4d;
     }
     nav {
       background: #ffe6ea;
@@ -50,11 +62,6 @@
       padding: 10px;
       font-size: 0.9em;
     }
-    .banner {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
     blockquote {
       font-style: italic;
       color: #6a1b4d;
@@ -66,9 +73,16 @@
   </style>
 </head>
 <body>
+
   <header>
-    <img src="https://placehold.co/120x120/f7c8d0/6a1b4d?text=Logo" alt="Mystic Tangles Logo" style="height: 120px;">
-<img src="https://placehold.co/1200x400/ffe6ea/6a1b4d?text=Welcome+to+Mystic+Tangles" alt="Mystic Tangles Banner" class="banner">
+    <h1>Mystic Tangles</h1>
+    <div class="subtitle">A Social Wellness Café</div>
+    <div style="margin-top:10px; font-size:0.9em; color:#9c5c87;">(Logo will be added soon)</div>
+  </header>
+
+  <div class="banner">
+    “In a world full of noise, Mystic Tangles is a quiet place where kindness, creativity, and healing meet.”
+  </div>
 
   <nav>
     <a href="#about">About</a>
@@ -124,5 +138,6 @@
   <footer>
     <p>&copy; 2025 Mystic Tangles. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
