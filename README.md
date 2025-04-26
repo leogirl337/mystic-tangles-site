@@ -67,12 +67,8 @@
 </head>
 <body>
   <header>
-    <img src="https://dummyimage.com/120x120/f7c8d0/6a1b4d&text=Logo" alt="Mystic Tangles Logo" style="height: 120px;">
-    <h1>Mystic Tangles</h1>
-    <p style="font-size: 1.2em; color: #5c3b57;">A Social Wellness Café</p>
-  </header>
-
-  <img src="https://dummyimage.com/1200x400/ffe6ea/6a1b4d&text=Welcome+to+Mystic+Tangles" alt="Mystic Tangles Banner" class="banner">
+    <img src="https://placehold.co/120x120/f7c8d0/6a1b4d?text=Logo" alt="Mystic Tangles Logo" style="height: 120px;">
+<img src="https://placehold.co/1200x400/ffe6ea/6a1b4d?text=Welcome+to+Mystic+Tangles" alt="Mystic Tangles Banner" class="banner">
 
   <nav>
     <a href="#about">About</a>
